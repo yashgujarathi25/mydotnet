@@ -2,6 +2,16 @@
   "version": 3,
   "targets": {
     "net7.0": {
+      "HR/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/HR.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HR.dll": {}
+        }
+      },
       "Membership/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -15,6 +25,11 @@
     }
   },
   "libraries": {
+    "HR/1.0.0": {
+      "type": "project",
+      "path": "../HR/HR.csproj",
+      "msbuildProject": "../HR/HR.csproj"
+    },
     "Membership/1.0.0": {
       "type": "project",
       "path": "../Membership/Membership.csproj",
@@ -23,6 +38,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "HR >= 1.0.0",
       "Membership >= 1.0.0"
     ]
   },
@@ -51,6 +67,9 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
+            "G:\\Local Repo\\DAC\\mydotnet\\Day2\\Ecommerce\\HR\\HR.csproj": {
+              "projectPath": "G:\\Local Repo\\DAC\\mydotnet\\Day2\\Ecommerce\\HR\\HR.csproj"
+            },
             "G:\\Local Repo\\DAC\\mydotnet\\Day2\\Ecommerce\\Membership\\Membership.csproj": {
               "projectPath": "G:\\Local Repo\\DAC\\mydotnet\\Day2\\Ecommerce\\Membership\\Membership.csproj"
             }
