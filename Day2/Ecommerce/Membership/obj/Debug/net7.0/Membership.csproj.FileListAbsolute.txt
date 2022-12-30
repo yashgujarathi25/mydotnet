@@ -1,0 +1,12 @@
+G:\Local Repo\DAC\mydotnet\Day2\Ecommerce\Membership\obj\Debug\net7.0\Membership.csproj.AssemblyReference.cache
+G:\Local Repo\DAC\mydotnet\Day2\Ecommerce\Membership\obj\Debug\net7.0\Membership.GeneratedMSBuildEditorConfig.editorconfig
+G:\Local Repo\DAC\mydotnet\Day2\Ecommerce\Membership\obj\Debug\net7.0\Membership.AssemblyInfoInputs.cache
+G:\Local Repo\DAC\mydotnet\Day2\Ecommerce\Membership\obj\Debug\net7.0\Membership.AssemblyInfo.cs
+G:\Local Repo\DAC\mydotnet\Day2\Ecommerce\Membership\obj\Debug\net7.0\Membership.csproj.CoreCompileInputs.cache
+G:\Local Repo\DAC\mydotnet\Day2\Ecommerce\Membership\bin\Debug\net7.0\Membership.deps.json
+G:\Local Repo\DAC\mydotnet\Day2\Ecommerce\Membership\bin\Debug\net7.0\Membership.dll
+G:\Local Repo\DAC\mydotnet\Day2\Ecommerce\Membership\bin\Debug\net7.0\Membership.pdb
+G:\Local Repo\DAC\mydotnet\Day2\Ecommerce\Membership\obj\Debug\net7.0\Membership.dll
+G:\Local Repo\DAC\mydotnet\Day2\Ecommerce\Membership\obj\Debug\net7.0\refint\Membership.dll
+G:\Local Repo\DAC\mydotnet\Day2\Ecommerce\Membership\obj\Debug\net7.0\Membership.pdb
+G:\Local Repo\DAC\mydotnet\Day2\Ecommerce\Membership\obj\Debug\net7.0\ref\Membership.dll
