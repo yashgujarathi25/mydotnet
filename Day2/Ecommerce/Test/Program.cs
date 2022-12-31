@@ -16,7 +16,13 @@ if(AuthUser.Validate(email,password)){
 
     Employee employee = new SalesEmployee();
     Console.WriteLine(employee);
+
+
+    Employee employee1 = new SalesManager();
+    Console.WriteLine(employee1);
 }
+
+
 else{
     Console.WriteLine("Invalid User...!!!!");
 }
