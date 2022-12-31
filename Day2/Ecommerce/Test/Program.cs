@@ -11,8 +11,11 @@ string password = Console.ReadLine();
 
 if(AuthUser.Validate(email,password)){
     Console.WriteLine("Welcome to Tanmay ka Flower Bazaar");
-    Employee emp = new Employee();
-    Console.WriteLine(emp);
+    // Employee emp = new Employee();
+    // Console.WriteLine(emp);
+
+    Employee employee = new SalesEmployee();
+    Console.WriteLine(employee);
 }
 else{
     Console.WriteLine("Invalid User...!!!!");

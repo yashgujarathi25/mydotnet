@@ -1,5 +1,5 @@
 ﻿namespace HR;
-public class Employee
+public abstract class Employee
 {
 
     public int Id{get; set;}
@@ -39,4 +39,6 @@ public class Employee
         float sal = (DA*30)+HRA+BasicSalary;
         return sal;
     }
+
+    public abstract void DoWork();
 }
