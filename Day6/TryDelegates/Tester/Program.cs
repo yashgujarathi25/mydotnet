@@ -7,6 +7,7 @@ TaxOperation itOperation = new TaxOperation(bjpGovt.IncomeTaxDeduct);
 TaxOperation proOperation = new TaxOperation(bjpGovt.ProfessionalTaxDeduct);
 TaxOperation serOperation = new TaxOperation(bjpGovt.ServiceTaxDeduct);
 Console.WriteLine("Unicast Delegates !!!!!");
+
 //unicast delegate
 itOperation(acc123.Balance);
 proOperation(acc123.Balance);
@@ -20,7 +21,6 @@ GeneralOperation += itOperation;
 GeneralOperation += serOperation;
 
 GeneralOperation(acc123.Balance);
-
 GeneralOperation-=serOperation;
 GeneralOperation(acc123.Balance);
 
@@ -33,10 +33,10 @@ acc123.Deposit(double.Parse(Console.ReadLine()));
 Console.WriteLine(acc123);
 
 acc123.ProcessTax();
-
-BelowBalance smsSending = new BelowBalance(acc123.SMS);
-BelowBalance emailSending = new BelowBalance(acc123.Email);
-BelowBalance blocking = new BelowBalance(acc123.Blocked);
+BankManager bm = new BankManager();
+BelowBalance smsSending = new BelowBalance(bm.SMS);
+BelowBalance emailSending = new BelowBalance(bm.Email);
+BelowBalance blocking = new BelowBalance(bm.Blocked);
 
 acc123.underBalance += smsSending;
 acc123.underBalance += emailSending;
