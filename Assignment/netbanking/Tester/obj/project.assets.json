@@ -1,0 +1,108 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "Account/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Account.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Account.dll": {}
+        }
+      },
+      "Customer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Customer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Customer.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Account/1.0.0": {
+      "type": "project",
+      "path": "../Account/Account.csproj",
+      "msbuildProject": "../Account/Account.csproj"
+    },
+    "Customer/1.0.0": {
+      "type": "project",
+      "path": "../Customer/Customer.csproj",
+      "msbuildProject": "../Customer/Customer.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "Account >= 1.0.0",
+      "Customer >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Admin\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "G:\\Local Repo\\DAC\\mydotnet\\Assignment\\netbanking\\Tester\\Tester.csproj",
+      "projectName": "Tester",
+      "projectPath": "G:\\Local Repo\\DAC\\mydotnet\\Assignment\\netbanking\\Tester\\Tester.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "G:\\Local Repo\\DAC\\mydotnet\\Assignment\\netbanking\\Tester\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "G:\\Local Repo\\DAC\\mydotnet\\Assignment\\netbanking\\Account\\Account.csproj": {
+              "projectPath": "G:\\Local Repo\\DAC\\mydotnet\\Assignment\\netbanking\\Account\\Account.csproj"
+            },
+            "G:\\Local Repo\\DAC\\mydotnet\\Assignment\\netbanking\\Customer\\Customer.csproj": {
+              "projectPath": "G:\\Local Repo\\DAC\\mydotnet\\Assignment\\netbanking\\Customer\\Customer.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

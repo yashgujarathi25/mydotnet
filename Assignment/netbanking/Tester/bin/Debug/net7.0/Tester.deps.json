@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Tester/1.0.0": {
+        "dependencies": {
+          "Account": "1.0.0",
+          "Customer": "1.0.0"
+        },
+        "runtime": {
+          "Tester.dll": {}
+        }
+      },
+      "Account/1.0.0": {
+        "runtime": {
+          "Account.dll": {}
+        }
+      },
+      "Customer/1.0.0": {
+        "runtime": {
+          "Customer.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Tester/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Account/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Customer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

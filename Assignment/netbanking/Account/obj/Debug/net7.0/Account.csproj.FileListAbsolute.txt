@@ -1,0 +1,12 @@
+G:\Local Repo\DAC\mydotnet\Assignment\netbanking\Account\bin\Debug\net7.0\Account.deps.json
+G:\Local Repo\DAC\mydotnet\Assignment\netbanking\Account\bin\Debug\net7.0\Account.dll
+G:\Local Repo\DAC\mydotnet\Assignment\netbanking\Account\bin\Debug\net7.0\Account.pdb
+G:\Local Repo\DAC\mydotnet\Assignment\netbanking\Account\obj\Debug\net7.0\Account.csproj.AssemblyReference.cache
+G:\Local Repo\DAC\mydotnet\Assignment\netbanking\Account\obj\Debug\net7.0\Account.GeneratedMSBuildEditorConfig.editorconfig
+G:\Local Repo\DAC\mydotnet\Assignment\netbanking\Account\obj\Debug\net7.0\Account.AssemblyInfoInputs.cache
+G:\Local Repo\DAC\mydotnet\Assignment\netbanking\Account\obj\Debug\net7.0\Account.AssemblyInfo.cs
+G:\Local Repo\DAC\mydotnet\Assignment\netbanking\Account\obj\Debug\net7.0\Account.csproj.CoreCompileInputs.cache
+G:\Local Repo\DAC\mydotnet\Assignment\netbanking\Account\obj\Debug\net7.0\Account.dll
+G:\Local Repo\DAC\mydotnet\Assignment\netbanking\Account\obj\Debug\net7.0\refint\Account.dll
+G:\Local Repo\DAC\mydotnet\Assignment\netbanking\Account\obj\Debug\net7.0\Account.pdb
+G:\Local Repo\DAC\mydotnet\Assignment\netbanking\Account\obj\Debug\net7.0\ref\Account.dll

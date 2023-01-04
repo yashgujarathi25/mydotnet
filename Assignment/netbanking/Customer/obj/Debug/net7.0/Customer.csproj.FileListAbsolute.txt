@@ -1,0 +1,12 @@
+G:\Local Repo\DAC\mydotnet\Assignment\netbanking\Customer\bin\Debug\net7.0\Customer.deps.json
+G:\Local Repo\DAC\mydotnet\Assignment\netbanking\Customer\bin\Debug\net7.0\Customer.dll
+G:\Local Repo\DAC\mydotnet\Assignment\netbanking\Customer\bin\Debug\net7.0\Customer.pdb
+G:\Local Repo\DAC\mydotnet\Assignment\netbanking\Customer\obj\Debug\net7.0\Customer.csproj.AssemblyReference.cache
+G:\Local Repo\DAC\mydotnet\Assignment\netbanking\Customer\obj\Debug\net7.0\Customer.GeneratedMSBuildEditorConfig.editorconfig
+G:\Local Repo\DAC\mydotnet\Assignment\netbanking\Customer\obj\Debug\net7.0\Customer.AssemblyInfoInputs.cache
+G:\Local Repo\DAC\mydotnet\Assignment\netbanking\Customer\obj\Debug\net7.0\Customer.AssemblyInfo.cs
+G:\Local Repo\DAC\mydotnet\Assignment\netbanking\Customer\obj\Debug\net7.0\Customer.csproj.CoreCompileInputs.cache
+G:\Local Repo\DAC\mydotnet\Assignment\netbanking\Customer\obj\Debug\net7.0\Customer.dll
+G:\Local Repo\DAC\mydotnet\Assignment\netbanking\Customer\obj\Debug\net7.0\refint\Customer.dll
+G:\Local Repo\DAC\mydotnet\Assignment\netbanking\Customer\obj\Debug\net7.0\Customer.pdb
+G:\Local Repo\DAC\mydotnet\Assignment\netbanking\Customer\obj\Debug\net7.0\ref\Customer.dll
