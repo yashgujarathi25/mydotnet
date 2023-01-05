@@ -1,18 +1,24 @@
 namespace EGoverance;
-
-public delegate void TaxOperation(double amount);
+public delegate double TaxOperation(double amount);
 
 public class CentralGov{
 
-    public void IncomeTaxDeduct(double amount){
-        Console.WriteLine("20% income tax is deducted from your account");
+    public CentralGov(){
+
     }
 
-    public void ServiceTaxDeduct(double amount){
-        Console.WriteLine("15% income tax is deducted from your account");
+    public double IncomeTaxDeduct(double amount){
+        Console.WriteLine(amount*0.2+" =  20% income tax is deducted from your account");
+        return amount*0.8;
     }
 
-    public void ProfessionalTaxDeduct(double amount){
-        Console.WriteLine("10% income tax is deducted from your account");
+    public double ServiceTaxDeduct(double amount){
+        Console.WriteLine(amount*0.15+ " = 15% income tax is deducted from your account");
+         return amount*0.85;
+    }
+
+    public double ProfessionalTaxDeduct(double amount){
+        Console.WriteLine(amount*0.1+ " = 10% income tax is deducted from your account");
+         return amount*0.9;
     }
 }
