@@ -39,4 +39,11 @@ public class EmployeeController : Controller
         _dbcontext.SaveChanges();
         return RedirectToAction("GetEmployees");
     }
+
+    [HttpDelete]
+    public IActionResult DeleteById(Employee empob){
+        _dbcontext.Employees.Remove(empob);
+        _dbcontext.SaveChanges();
+        return RedirectToAction("GetEmployee");
+    }
 }

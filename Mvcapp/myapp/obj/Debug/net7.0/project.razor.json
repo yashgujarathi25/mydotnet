@@ -16595,6 +16595,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "g:\\Local Repo\\DAC\\mydotnet\\Mvcapp\\myapp\\Views\\Employee\\DelEmp.cshtml",
+      "TargetPath": "Views\\Employee\\DelEmp.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "g:\\Local Repo\\DAC\\mydotnet\\Mvcapp\\myapp\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
