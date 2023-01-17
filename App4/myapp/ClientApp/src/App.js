@@ -16,7 +16,11 @@ export default function App() {
   },[])
   return (
     <div>
-      <table>
+      <div className='container'>
+      <h1>Student</h1>
+      </div>
+      <div></div>
+      <table className='table table-striped'>
         <tbody>
           <tr>
             <th>Id</th>
